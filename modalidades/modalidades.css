@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Raleway";
+}
+
+.container{
+    display: flex;
+    background-color: goldenrod;
+    width: 100vw;
+    height: 1620vh;
+    background-image: url("imgjogos.jpg");
+    background-size: contain;
+    border-radius: 25px;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    background-color: rgba(2, 0, 0, 0.419);
+    width: 1000px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    display: flex;
+    background-color: rgba(2, 0, 0, 0.419);
+    width: 1000px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    display: flex;
+    background-color: rgba(2, 0, 0, 0.419);
+    width: 1000px;
+    height: 150px;
+    color: white;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.box4{
+    display: flex;
+    background-color: rgba(2, 0, 0, 0.419);
+    width: 1000px;
+    height: 400px;
+    color: white;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    text-align: justify;      
+    padding: 20px;            
+    box-sizing: border-box;
+}
+
+.box5{
+    display: flex;
+    background-color: rgba(2, 0, 0, 0.419);
+    width: 1000px;
+    height: 50px;
+    color: white;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+}
+
+table {
+    border-collapse: collapse;
+    width: 150px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.box6{
+    display: flex;
+    background-color: rgba(2, 0, 0, 0.419);
+    width: 1000px;
+    height: 300px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box7{
+    display: flex;
+    background-color: rgba(2, 0, 0, 0.419);
+    width: 1000px;
+    height: 700px;
+    color: white;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.box8{
+    display: flex;
+    background-color: rgba(2, 0, 0, 0.419);
+    width: 1000px;
+    height: 600px;
+    color: white;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    text-align: justify;      
+    padding: 20px;            
+    box-sizing: border-box;
+}
+
+.box9{
+    display: flex;
+    background-color: rgba(2, 0, 0, 0.419);
+    width: 1000px;
+    height: 300px;
+    color: white;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    text-align: justify;      
+    padding: 20px;            
+    box-sizing: border-box;
+}
+
+.box10{
+    display: flex;
+    background-color: rgba(2, 0, 0, 0.419);
+    width: 1000px;
+    height: 700px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}

@@ -1,0 +1,129 @@
+*{
+margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px; /* espaço abaixo do menu */
+  position: relative;
+  z-index: 1;
+  align-content: center;
+}
+
+.box{
+width: 1500px;
+height: 700px;
+background-color: rgb(48, 61, 53, 0.0);
+position: relative;
+z-index: 10;
+align-content: center;
+}
+
+
+body {
+background-image: url("Fundo3.jpeg");
+background-size: cover;
+font-family: "Raleway", sans-serif;
+}
+
+.imagem{
+margin: 10px;
+text-align: center;
+}
+
+.texto-turma img{
+border-radius: 50%;
+object-fit: cover;
+width: 150px;
+height: 150px;
+}
+
+.texto-turma{
+text-align: center;
+color: aliceblue;
+align-content: center;
+}
+
+.eletro{
+display: flex;
+justify-content: center;
+justify-content: space-around;
+flex-direction: row;
+flex-wrap: wrap;
+position: relative; 
+z-index: 10;
+align-content: center;
+}
+
+.info{
+display: flex;
+justify-content: center;
+justify-content: space-around;
+flex-direction: row;
+flex-wrap: wrap;
+position: relative;
+z-index: 10;
+align-content: center;
+}
+
+.cabecalho {
+  text-align: center;
+  color: aliceblue;
+  background-color: #06427f;
+  height: 120px;
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  align-content: center;
+}
+
+.rodape {
+  text-align: center;
+  color: aliceblue;
+  background-color: #06427f;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  align-content: center;
+}
+
+
+.logo{
+position: absolute;
+left: 20px;
+border-radius: 50%;
+top: 20px;
+width: 100px;
+height: 100px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #346096;
+  height: 40px;
+  width: 100%;
+  position: relative;
+  z-index: 20;
+}
+
+
+
+
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none; 
+  color: #fff; 
+}
+
+a:hover {
+  color: rgb(69, 58, 224);
+}
